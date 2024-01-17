@@ -1,0 +1,67 @@
+/* ================ MEDIA QUERIES ================ */
+@media only screen and (max-width: 678px) {
+  body {
+    width: 100%;
+  }
+  nav ul {
+    display: none;
+  }
+  nav {
+    height: 3rem;
+  }
+  .landing-page {
+    height: 39rem;
+  }
+  .about-pic-box img {
+    border-radius: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .hamburger-menu {
+    display: none;
+  }
+  h1 {
+    right: 11rem;
+    bottom: 4rem;
+  }
+  .about-section {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+  }
+  .about-text-container,
+  .about-pic-box {
+    flex: 50%;
+  }
+  .icons-container-main {
+    display: flex;
+  }
+  .trips-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+  }
+  .where-section,
+  .reviews {
+    display: flex;
+  }
+  .reviews-header {
+    width: 80%;
+  }
+  .reviews {
+    margin: auto;
+    width: 80%;
+  }
+  .what-section-container,
+  .where-section-container {
+    margin: auto;
+    width: 80%;
+  }
+  .images-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: none;
+  }
+}

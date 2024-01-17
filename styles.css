@@ -1,0 +1,228 @@
+/* ================ GENERAL ================ */
+:root {
+  --nav-background-color: #33292a;
+  --nav-color: #fff;
+  --background-image: url("images/scott-goodwill-y8Ngwq34_Ak-unsplash.jpg");
+  --background-color-1: #33292a;
+  --background-color-2: #644b4f;
+  --background-color-3: #333333;
+  --background-color-4: #f2f2f2;
+  --link-color: #efa69d;
+  --link-color-hover: #e9877b;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Roboto, Arial;
+  text-align: center;
+}
+img {
+  border-radius: 5px;
+}
+h1 {
+  font-size: 3.5rem;
+  color: var(--nav-color);
+  position: absolute;
+  right: 25px;
+  bottom: 15px;
+}
+h2 {
+  font-weight: bold;
+  font-size: 1.9rem;
+  margin-bottom: 10px;
+}
+/* ================ NAV ================ */
+nav {
+  background-color: var(--nav-background-color);
+  color: var(--nav-color);
+  font-weight: bold;
+  position: relative;
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  height: 5rem;
+}
+li a {
+  text-decoration: none;
+  color: var(--nav-color);
+}
+.hamburger-menu {
+  display: inline-block;
+  cursor: pointer;
+  width: auto;
+  position: absolute;
+  right: 1rem;
+}
+.hamburger-menu div {
+  width: 35px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: var(--nav-color);
+  margin: 6px 0;
+  display: block;
+}
+
+/* ================ LANDING PAGE ================ */
+.landing-page {
+  background-image: var(--background-image);
+  width: 100%;
+  height: 50rem;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+span {
+  display: block;
+  text-align: right;
+}
+/* ================ ABOUT SECTION ================ */
+.about-section {
+  padding: 45px 25px;
+}
+.about-text {
+  line-height: 25px;
+  text-align: left;
+}
+.about-pic-box {
+  width: 100%;
+  margin-top: 30px;
+}
+.about-pic-box img {
+  width: 100%;
+  object-fit: cover;
+}
+/* ================ WHAT SECTION ================ */
+.what-section {
+  background-color: var(--background-color-1);
+  color: var(--nav-color);
+  padding: 45px 25px;
+}
+.what-text {
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+.icons-container {
+  width: 25%;
+  display: inline-block;
+  margin: 35px 50px;
+}
+.icons-container img {
+  width: 100%;
+}
+/* ================ TRIPS SECTION ================ */
+.trips-section {
+  padding: 50px 25px;
+}
+.trips-header {
+  background-color: var(--background-color-4);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.trips-pic-box {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.trips-pic-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* ================ WHERE SECTION ================ */
+.where-section {
+  background-color: var(--background-color-2);
+  color: var(--nav-color);
+  padding: 50px 25px;
+  text-align: left;
+}
+.where-text {
+  line-height: 25px;
+  text-align: left;
+}
+.where-text div {
+  padding: 20px auto;
+  margin: 20px auto;
+  text-align: left;
+}
+.where-contact-button {
+  background-color: var(--background-color-4);
+  border: 1px solid var(--background-color-4);
+  width: fit-content;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+}
+.where-contact-button a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+/* ================ REVIEWS SECTION ================ */
+.reviews-section {
+  padding: 50px 25px;
+}
+.reviews-section div {
+  margin: 20px auto;
+}
+.reviews-pic-box {
+  width: 40%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.reviews-pic-box img {
+  width: 7rem;
+  height: 7rem;
+  object-fit: cover;
+  border-radius: 50%;
+  display: inline-block;
+}
+.name-tag {
+  font-weight: bold;
+  margin-top: 25px;
+  margin-bottom: 35px;
+}
+/* ================ IMAGES SECTION ================ */
+.images-section {
+  margin: 0;
+  padding: 0;
+}
+.images-section-box {
+  width: 100%;
+}
+.images-section-box img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0;
+  display: block;
+}
+/* ================ FOOTER ================ */
+footer {
+  background-color: var(--nav-background-color);
+  color: var(--nav-color);
+  font-size: 0.7rem;
+  padding: 20px;
+}
+footer footer a {
+  color: var(--link-color);
+}
+footer a:hover {
+  color: var(--link-color-hover);
+  cursor: pointer;
+}
+footer a:visited {
+  color: var(--link-color-hover);
+}
